@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'sizenfitwidget'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of sizenfitwidget.'
+  s.summary          = 'sizenfit widget try example demo pod'
+  s.swift_version    =  '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -35,6 +36,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'sizenfitwidget' => ['sizenfitwidget/Assets/*.png']
   # }
+
+  s.vendored_frameworks = 'sizenfitwidget/Classes/SizeNFit.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

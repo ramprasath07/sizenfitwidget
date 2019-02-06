@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		1F50237C6C3CD0F069ADE656 /* Pods_sizenfitwidget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sizenfitwidget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		372AB8B364EB9C09E56859B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		50262F4F151BD7DCDC61E8A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		372AB8B364EB9C09E56859B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		50262F4F151BD7DCDC61E8A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* sizenfitwidget_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sizenfitwidget_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87C0658BF279723269522320 /* Pods-sizenfitwidget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sizenfitwidget_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sizenfitwidget_Tests/Pods-sizenfitwidget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		935FE595F7B0ADC6AADC1805 /* sizenfitwidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = sizenfitwidget.podspec; path = ../sizenfitwidget.podspec; sourceTree = "<group>"; };
+		935FE595F7B0ADC6AADC1805 /* sizenfitwidget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = sizenfitwidget.podspec; path = ../sizenfitwidget.podspec; sourceTree = "<group>"; };
 		BB61D2EFCF4BE5694AADADE1 /* Pods-sizenfitwidget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sizenfitwidget_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sizenfitwidget_Tests/Pods-sizenfitwidget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4G3X53UT8J;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -331,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87C0658BF279723269522320 /* Pods-sizenfitwidget_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4G3X53UT8J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -353,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB61D2EFCF4BE5694AADADE1 /* Pods-sizenfitwidget_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4G3X53UT8J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,6 @@
+framework module Pods_sizenfitwidget_Tests {
+  umbrella header "Pods-sizenfitwidget_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

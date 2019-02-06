@@ -1,0 +1,22 @@
+{
+  "name": "sizenfitwidget",
+  "version": "0.1.0",
+  "summary": "A short description of sizenfitwidget.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ea36b6bff081770024b8c2237770ccafacd983b0/sizenfitwidget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ea36b6bff081770024b8c2237770ccafacd983b0": "madhu.mani@sizenfit.com"
+  },
+  "source": {
+    "git": "https://github.com/ea36b6bff081770024b8c2237770ccafacd983b0/sizenfitwidget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "sizenfitwidget/Classes/**/*"
+}

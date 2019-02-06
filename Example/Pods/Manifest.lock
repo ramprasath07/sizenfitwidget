@@ -1,0 +1,16 @@
+PODS:
+  - sizenfitwidget (0.1.0)
+
+DEPENDENCIES:
+  - sizenfitwidget (from `../`)
+
+EXTERNAL SOURCES:
+  sizenfitwidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  sizenfitwidget: adfa241d337a0b8276e41cfa8414a7311a18ed48
+
+PODFILE CHECKSUM: f6dcb7e57b3d4458a7b8e7f0191df73ff1c8a9a2
+
+COCOAPODS: 1.5.3

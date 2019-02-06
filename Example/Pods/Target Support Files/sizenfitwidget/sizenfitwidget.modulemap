@@ -1,0 +1,6 @@
+framework module sizenfitwidget {
+  umbrella header "sizenfitwidget-umbrella.h"
+
+  export *
+  module * { export * }
+}
