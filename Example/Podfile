@@ -1,0 +1,6 @@
+use_frameworks!
+target 'sizenfitwidget_Tests' do
+  pod 'sizenfitwidget', :path => '../'
+  
+  
+end
