@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sizenfitwidget'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'sizenfit widget try example demo pod'
   s.swift_version    =  '4.2'
 
@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'sizenfitwidget/Classes/SizeNFit.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,6 +1,4 @@
 use_frameworks!
 target 'sizenfitwidget_Tests' do
-  pod 'sizenfitwidget', :path => '../'
-  
-  
-end
+            pod 'SizeNFit', :path => '/Users/apple/Documents/ExternalLibraries/Frame Work/'
+    end
